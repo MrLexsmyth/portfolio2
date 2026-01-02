@@ -49,7 +49,7 @@ export default function Sidebar() {
       {/* SOCIAL ICONS */}
       <div className="flex flex-col mt-10 mb-10">
         <SocialIcon href="https://github.com/MrLexsmyth" icon={<Github size={18} />} />
-        <SocialIcon href="https://linkedin.com" icon={<Linkedin size={18} />} />
+        <SocialIcon href="https://linkedin.com/dsdsddd" icon={<Linkedin size={18} />} />
         <SocialIcon href="https://x.com/ShittuOdunayoO" icon={<Twitter size={18} />} />
         <SocialIcon href="https://wa.me/2348169273808"icon={<MessageCircle size={18} />} />
       </div>
