@@ -63,7 +63,7 @@ const Page = () => {
 
           <a
             href="/contact"
-            className="inline-block mt-8 bg-yellow-400 text-black font-semibold px-6 py-2 hover:bg-yellow-500 transition"
+            className="inline-block mt-8 bg-yellow-500 text-black font-semibold px-6 py-2 hover:bg-white transition"
           >
             Contact Me
           </a>

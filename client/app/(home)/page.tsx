@@ -20,7 +20,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#022c43] px-6">
      
-      <ul className="flex items-center gap-4 mt-16">
+      <ul className="flex items-center gap-4 mt-8">
   <motion.li>
     <a
       href="https://drive.google.com/file/d/1m0Wvdfqit3rNlsZbnBdvl8AmtQuSWT2n/view?usp=drive_link"
@@ -60,7 +60,7 @@ export default function HomePage() {
   </motion.li>
 </ul>
 
-      <div className="flex flex-col items-center mt-8 text-center max-w-3xl">
+      <div className="flex flex-col items-center mt-16 text-center max-w-3xl">
         
         {/* Animated Text */}
         <AnimatedText>

@@ -23,7 +23,7 @@ type SidebarProps = {
 
 export default function Sidebar({ onLinkClick }: SidebarProps) {
   return (
-    <aside className="h-full flex flex-col justify-between items-center p-4 text-[#680aed]">
+    <aside className="h-full flex flex-col justify-between items-center p-4 text-white">
       
       {/* LOGO */}
       <motion.div
@@ -40,6 +40,7 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
               fill
               className="object-contain rounded-full"
             />
+            
           </div>
         </Link>
       </motion.div>
