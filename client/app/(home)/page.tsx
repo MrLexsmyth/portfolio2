@@ -18,7 +18,7 @@ export default function HomePage() {
             I’m Shittu Odunayo
           </h1>
            <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-            Web Developer.
+             a Web Developer.
           </h1>  
         </AnimatedText>
 

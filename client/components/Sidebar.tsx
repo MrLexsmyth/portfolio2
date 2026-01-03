@@ -15,7 +15,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 
-/* 👇 Add prop */
+
 type SidebarProps = {
   onLinkClick?: () => void;
 };
@@ -80,7 +80,7 @@ function SidebarLink({ href, icon, label, onClick }: SidebarLinkProps) {
     <motion.div whileHover={{ scale: 1.05 }}>
       <Link
         href={href}
-        onClick={onClick} // 👈 closes mobile sidebar
+        onClick={onClick} 
         className="flex items-center justify-center w-14 h-12 transition-all duration-300 overflow-hidden group"
       >
         {/* Icon */}

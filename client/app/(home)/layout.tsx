@@ -57,7 +57,7 @@ export default function HomeLayout({
                 <X size={22} />
               </button>
 
-              {/* 👇 pass handler */}
+             
               <Sidebar onLinkClick={closeSidebar} />
             </motion.aside>
           </>
