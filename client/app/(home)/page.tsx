@@ -23,7 +23,7 @@ export default function HomePage() {
       <ul className="flex items-center gap-4 mt-8">
   <motion.li>
     <a
-      href="https://drive.google.com/file/d/1m0Wvdfqit3rNlsZbnBdvl8AmtQuSWT2n/view?usp=drive_link"
+     href="https://drive.google.com/file/d/18jseBRLyIySyOI2DKSDFS4c_30Z49CQb/view?usp=drive_link"
       className="text-white no-underline inline-flex items-center gap-2"
     >
       <FileText size={20} />
