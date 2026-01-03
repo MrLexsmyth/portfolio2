@@ -108,13 +108,7 @@ const projectData = [
     code: "https://github.com/MrLexsmyth/Puzzle-Picture-Game",
     techs: ["reactjs.svg", "javascript.svg", "tailwindcss.svg", "redux.svg", "sass.svg"],
   },
-  {
-    title: "Food Website",
-    image: "/food.png",
-    description: `Responsive landing page for a food delivery service.`,
-    live: "https://omnifood-plantcodess.netlify.app/",
-    techs: ["reactjs.svg", "javascript.svg", "tailwindcss.svg", "sass.svg"],
-  },
+ 
   {
     title: "Coffee Shop Website",
     image: "/coffee.png",
