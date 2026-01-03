@@ -177,14 +177,17 @@ const PortfolioPage = () => {
               {/* Links */}
               <div className="flex gap-4">
                 {project.live && (
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-yellow-400 font-semibold hover:underline text-sm"
-                  >
-                    Live Preview
-                  </a>
+    <a
+  href={project.live}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-yellow-400 font-medium text-sm hover:text-yellow-300 transition-colors duration-200 underline-offset-4 hover:underline"
+>
+  Live Preview →
+</a>
+
+
+
                 )}
                 {/* {project.code && (
                   <a
