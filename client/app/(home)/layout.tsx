@@ -17,7 +17,7 @@ export default function HomeLayout({
   return (
     <div className="flex min-h-screen relative">
       {/* Desktop Sidebar */}
-      <aside className="hidden md:flex w-20 bg-black">
+      <aside className="hidden md:flex w-20 bg-[#010101]">
         <Sidebar />
       </aside>
 

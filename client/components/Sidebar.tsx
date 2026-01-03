@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+
 import {
   Home,
   User,
@@ -22,7 +23,7 @@ type SidebarProps = {
 
 export default function Sidebar({ onLinkClick }: SidebarProps) {
   return (
-    <aside className="h-full flex flex-col justify-between items-center p-4 text-[#ffd700]">
+    <aside className="h-full flex flex-col justify-between items-center p-4 text-[#680aed]">
       
       {/* LOGO */}
       <motion.div

@@ -28,7 +28,7 @@ export default function AnimatedText({ children }: AnimatedTextProps) {
         }}
         whileHover={{
           y: -10,
-          color: "#FFD700",
+          color: "#680aed",
         }}
         className="inline-block cursor-pointer"
       >
