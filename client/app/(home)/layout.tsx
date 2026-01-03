@@ -12,6 +12,8 @@ export default function HomeLayout({
 }) {
   const [open, setOpen] = useState(false);
 
+  const closeSidebar = () => setOpen(false);
+
   return (
     <div className="flex min-h-screen relative">
       {/* Desktop Sidebar */}
@@ -36,7 +38,7 @@ export default function HomeLayout({
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.5 }}
               exit={{ opacity: 0 }}
-              onClick={() => setOpen(false)}
+              onClick={closeSidebar}
               className="fixed inset-0 bg-black z-40"
             />
 
@@ -49,22 +51,21 @@ export default function HomeLayout({
               className="fixed top-0 left-0 h-full w-18 bg-[#022c43] p-4 z-50"
             >
               <button
-                onClick={() => setOpen(false)}
+                onClick={closeSidebar}
                 className="mb-6 text-white"
               >
                 <X size={22} />
               </button>
 
-              <Sidebar />
+              {/* 👇 pass handler */}
+              <Sidebar onLinkClick={closeSidebar} />
             </motion.aside>
           </>
         )}
       </AnimatePresence>
 
       {/* Main Content */}
-      <main className="flex-1">
-        {children}
-      </main>
+      <main className="flex-1">{children}</main>
     </div>
   );
 }

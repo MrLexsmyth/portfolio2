@@ -10,6 +10,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Shittu Odunayo O. - Portfolio",
   description: "Portfolio of Shittu Odunayo O.",
+    icons: {
+    icon: "/logo.jpeg", 
+    shortcut: "/logo.jpeg",   
+    apple: "/logo.jpeg", 
+  },
 };
 
 export default function RootLayout({

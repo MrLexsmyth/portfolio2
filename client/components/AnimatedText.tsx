@@ -20,7 +20,7 @@ export default function AnimatedText({ children }: AnimatedTextProps) {
         initial={{ opacity: 0, y: 10 }}        // start hidden and slightly below
         animate={{ opacity: 1, y: 0 }}         // fade in and move up
         transition={{
-          delay: index * 0.10,                 // stagger letters
+          delay: index * 0.03,                 // stagger letters
           duration: 0.4,
           type: "spring",
           stiffness: 500,

@@ -30,7 +30,7 @@ const Page = () => {
         {/* LEFT — ABOUT */}
         <div className="flex-1 overflow-y-auto mt-8 py-10">
           <div className="text-white font-bold text-3xl md:text-5xl">
-            <span className="block text-yellow-400 text-sm opacity-60 mb-2">
+            <span className="block text-yellow-400 text-sm opacity-60 mb-2 ">
               &lt;h1&gt;
             </span>
             <AnimatedText>About Me</AnimatedText>
