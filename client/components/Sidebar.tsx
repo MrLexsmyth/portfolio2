@@ -15,7 +15,6 @@ import {
   Github,
   Linkedin,
   Twitter,
-  MessageCircle,
 } from "lucide-react";
 
 
