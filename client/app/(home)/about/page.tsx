@@ -21,6 +21,7 @@ const techStack = [
   { icon: "supabase.svg", name: "Supabase" },
   { icon: "git.svg", name: "Git" },
   { icon: "redis.svg", name: "Redis" },
+   { icon: "postman.svg", name: "Postman" },
 ];
 
 const Page = () => {
@@ -93,7 +94,7 @@ const Page = () => {
                 whileHover={{ scale: 1.1 }}
                 className="flex flex-col items-center gap-2"
               >
-                <div className="relative w-10 h-10">
+                <div className="relative w-12 h-12">
                   <Image
                     src={`/svgs/${tech.icon}`}
                     alt={tech.name}
