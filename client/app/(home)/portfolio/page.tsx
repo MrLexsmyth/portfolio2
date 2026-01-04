@@ -19,12 +19,12 @@ const projectData = [
       "javascript.svg",
       "tailwindcss.svg",
       "sass.svg",
-      "framer-motion.svg",
+      "framermotion.svg",
       "next.svg",
       "express.svg",
       "git.svg",
       "mongodb.svg",
-      "node.svg",
+      "nodejs.svg",
       "typescript.svg",
     ],
   },
@@ -40,12 +40,12 @@ const projectData = [
       "javascript.svg",
       "tailwindcss.svg",
       "sass.svg",
-      "framer-motion.svg",
+      "framermotion.svg",
       "next.svg",
       "express.svg",
       "git.svg",
       "mongodb.svg",
-      "node.svg",
+      "nodejs.svg",
       "typescript.svg",
     ],
   },
@@ -60,7 +60,7 @@ const projectData = [
       "javascript.svg",
       "tailwindcss.svg",
       "sass.svg",
-      "framer-motion.svg",
+      "framermotion.svg",
       "next.svg",
     ],
   },
@@ -75,12 +75,12 @@ const projectData = [
       "javascript.svg",
       "tailwindcss.svg",
       "sass.svg",
-      "framer-motion.svg",
+      "framermotion.svg",
       "next.svg",
       "express.svg",
       "git.svg",
       "mongodb.svg",
-      "node.svg",
+      "nodejs.svg",
       "typescript.svg",
     ],
   },
@@ -289,7 +289,7 @@ const PortfolioPage = () => {
       </div>
 
       {/* Scrollable content */}
-      <div className="h-[calc(100vh-150px)] overflow-y-auto pr-2 mb-4">
+      <div className="h-[calc(100vh-150px)] overflow-y-auto pr-2 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-6">
           {projectData.map((project, i) => {
             const variant =
