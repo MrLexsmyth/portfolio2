@@ -26,6 +26,7 @@ const projectData = [
       "mongodb.svg",
       "nodejs.svg",
       "typescript.svg",
+      "redis.svg"
     ],
   },
   {
@@ -43,6 +44,7 @@ const projectData = [
       "framermotion.svg",
       "next.svg",
       "express.svg",
+      "redis.svg",
       "git.svg",
       "mongodb.svg",
       "nodejs.svg",

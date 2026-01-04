@@ -8,11 +8,11 @@ import AnimatedText from "@/components/AnimatedText";
 const techStack = [
   { icon: "reactjs.svg", name: "React" },
   { icon: "next.svg", name: "Next.js" },
-  { icon: "node.svg", name: "Node.js" },
+  { icon: "nodejs.svg", name: "Node.js" },
   { icon: "javascript.svg", name: "JavaScript" },
   { icon: "typescript.svg", name: "TypeScript" },
   { icon: "tailwindcss.svg", name: "TailwindCSS" },
-  { icon: "framer-motion.svg", name: "Framer Motion" },
+  { icon: "framermotion.svg", name: "Framer Motion" },
   { icon: "express.svg", name: "Express.js" },
   { icon: "sass.svg", name: "SASS" },
   { icon: "mongodb.svg", name: "MongoDB" },
@@ -20,6 +20,7 @@ const techStack = [
   { icon: "firebase.svg", name: "Firebase" },
   { icon: "supabase.svg", name: "Supabase" },
   { icon: "git.svg", name: "Git" },
+  { icon: "redis.svg", name: "Redis" },
 ];
 
 const Page = () => {
