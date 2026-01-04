@@ -280,7 +280,7 @@ const PortfolioPage = () => {
     <>
       <SEO
         title="Shittu Odunayo Portfolio - Projects"
-        description="Frontend developer projects portfolio showcasing Next.js, React, Tailwind, and more."
+        description="Web developer projects portfolio showcasing Next.js, React, Tailwind, and more."
         url="https://shittuodunayo.com/portfolio"
         image="/gadup.jpg"
         type="website"

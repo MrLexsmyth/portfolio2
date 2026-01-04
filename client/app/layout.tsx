@@ -12,7 +12,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Shittu Odunayo O. - Portfolio",
-  description: "Frontend Developer & Web Projects Portfolio of Shittu Odunayo O.",
+  description: "Web Developer & Web Projects Portfolio of Shittu Odunayo O.",
   keywords: "Next.js, React, Portfolio, Web Developer, Projects, Tailwind, Framer Motion",
   authors: [{ name: "Shittu Odunayo O." }],
   viewport: "width=device-width, initial-scale=1.0",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Shittu Odunayo O. - Portfolio",
-    description: "Frontend Developer & Web Projects Showcase",
+    description: "Web Developer & Web Projects Showcase",
     url: "https://shittuodunayo.com",
     siteName: "Shittu Odunayo Portfolio",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Shittu Odunayo O. - Portfolio",
-    description: "Frontend Developer & Web Projects Showcase",
+    description: "Web Developer & Web Projects Showcase",
     images: ["/image1.jpeg"],
   },
 };
