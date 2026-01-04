@@ -4,6 +4,8 @@ import Link from "next/link";
 import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 import {
   Home,
@@ -63,7 +65,14 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
         <SocialIcon href="https://github.com/MrLexsmyth" icon={<Github size={18} />} />
         <SocialIcon href="https://linkedin.com/dsdsddd" icon={<Linkedin size={18} />} />
         <SocialIcon href="https://x.com/ShittuOdunayoO" icon={<Twitter size={18} />} />
-        <SocialIcon href="https://wa.me/2348169273808" icon={<MessageCircle size={18} />} />
+       <a
+  href="https://wa.me/2348169273808"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white hover:text-green-400 mt-2 ml-4"
+>
+  <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+</a>
       </div>
     </aside>
   );

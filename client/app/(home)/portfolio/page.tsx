@@ -4,6 +4,7 @@ import React from "react";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import { motion as Motion, Variants } from "framer-motion";
+import SEO from "@/components/SEO";
 
 /* -------------------- DATA -------------------- */
 
@@ -276,6 +277,14 @@ const animationVar: Variants[] = [
 
 const PortfolioPage = () => {
   return (
+    <>
+      <SEO
+        title="Shittu Odunayo Portfolio - Projects"
+        description="Frontend developer projects portfolio showcasing Next.js, React, Tailwind, and more."
+        url="https://shittuodunayo.com/portfolio"
+        image="/gadup.jpg"
+        type="website"
+      />
     <div className="relative h-screen bg-[#022c43] overflow-hidden px-6 md:px-16 py-10">
       {/* Title */}
       <div className="relative inline-block text-white font-bold mt-8 text-3xl md:text-5xl mb-8">
@@ -361,6 +370,7 @@ const PortfolioPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
