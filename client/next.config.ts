@@ -2,19 +2,34 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+
   experimental: {
-    optimizeCss: true,       // Optimize Tailwind CSS
-    scrollRestoration: true, // Optional: smooth page transitions
+    optimizeCss: true,
+    scrollRestoration: true,
   },
+
   images: {
-    domains: ["images.unsplash.com", "yourdomain.com"], // external images
-    formats: ["image/avif", "image/webp"],             // modern formats
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "shittuodunayo.com",
+        pathname: "/**",
+      },
+    ],
+    formats: ["image/avif", "image/webp"],
   },
+
   compiler: {
-    styledComponents: false, // only if you might use styled-components
+    styledComponents: false,
   },
+
   typescript: {
-    ignoreBuildErrors: false, // fails build on TS errors
+    ignoreBuildErrors: false,
   },
 };
 

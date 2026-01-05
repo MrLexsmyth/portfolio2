@@ -36,7 +36,7 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
         <Link href="/" onClick={onLinkClick}>
           <div className="w-12 h-12 mt-4 relative">
             <Image
-              src="/logo.jpeg"
+              src="/logo22.png"
               alt="Logo"
               fill
               className="object-contain rounded-full"

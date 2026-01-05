@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   icons: {
-    icon: "/logo.jpeg",
-    shortcut: "/logo.jpeg",
-    apple: "/logo.jpeg",
+    icon: "/logo22.png",
+    shortcut: "/logo22.png",
+    apple: "/logo22.png",
   },
   openGraph: {
     title: "Shittu Odunayo O. - Portfolio",
