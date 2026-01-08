@@ -70,7 +70,7 @@ export default function HomePage() {
           />
 
           <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-            I’m Shittu Odunayo
+            I’m Shittu Odunayo O.®
           </h1>
 
           <h1 className="text-3xl md:text-5xl font-semibold mb-4">
