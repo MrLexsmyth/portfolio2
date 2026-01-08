@@ -124,7 +124,7 @@ export default function HomePage() {
 </a>
 
 <a
-  href="https://x.com/ShittuOdunayo3"
+  href="https://x.com/ShittuOdunayoO"
   className="text-white/50 text-[32px] ml-[30px] mr-[10px] transition-colors duration-300 hover:text-white"
 >
   <FontAwesomeIcon icon={faXTwitter} />
