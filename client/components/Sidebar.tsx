@@ -15,6 +15,7 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Pen,
 } from "lucide-react";
 
 
@@ -50,13 +51,9 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
       <nav className="flex flex-col mt-14 gap-1 items-center">
         <SidebarLink href="/" icon={<Home size={24} />} label="Home" onClick={onLinkClick} />
         <SidebarLink href="/about" icon={<User size={24} />} label="About" onClick={onLinkClick} />
-        <SidebarLink
-          href="/portfolio"
-          icon={<Briefcase size={24} />}
-          label="Portfolio"
-          onClick={onLinkClick}
-        />
+        <SidebarLink href="/portfolio" icon={<Briefcase size={24} />} label="Portfolio" onClick={onLinkClick} />
         <SidebarLink href="/contact" icon={<Mail size={24} />} label="Contact" onClick={onLinkClick} />
+        <SidebarLink href="/testimonials" icon={<Pen size={24} />} label="Testimonials" onClick={onLinkClick} />
       </nav>
 
       {/* SOCIAL ICONS */}
