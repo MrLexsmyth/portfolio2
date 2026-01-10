@@ -48,7 +48,7 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
       </motion.div>
 
       {/* NAV LINKS */}
-      <nav className="flex flex-col mt-14 gap-1 items-center">
+      <nav className="flex flex-col mt-4 gap-1 items-center">
         <SidebarLink href="/" icon={<Home size={24} />} label="Home" onClick={onLinkClick} />
         <SidebarLink href="/about" icon={<User size={24} />} label="About" onClick={onLinkClick} />
         <SidebarLink href="/portfolio" icon={<Briefcase size={24} />} label="Portfolio" onClick={onLinkClick} />
@@ -57,7 +57,7 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
       </nav>
 
       {/* SOCIAL ICONS */}
-      <div className="flex flex-col mt-10 mb-10">
+      <div className="flex flex-col mt-4 mb-10">
         <SocialIcon href="https://github.com/MrLexsmyth" icon={<Github size={18} />} />
         <SocialIcon href="https://linkedin.com/dsdsddd" icon={<Linkedin size={18} />} />
         <SocialIcon href="https://x.com/ShittuOdunayoO" icon={<Twitter size={18} />} />
