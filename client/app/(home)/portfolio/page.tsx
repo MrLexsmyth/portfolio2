@@ -273,7 +273,7 @@ const animationVar: Variants[] = [
   fadeInRight,
 ];
 
-/* -------------------- COMPONENT -------------------- */
+
 
 const PortfolioPage = () => {
   return (
