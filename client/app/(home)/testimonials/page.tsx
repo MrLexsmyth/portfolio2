@@ -29,7 +29,7 @@ const wordVariant = {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Folashade Ogidan",
+    name: "Divine Ada",
     image: "/pm.jpg",
     testimonial:
       "Working with Odunayo was a game-changer for our real estate platform. He delivered a fast, modern, and user-friendly website that significantly improved property discovery and customer inquiries. Our online presence now truly reflects the quality of our brand.",
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     startup: "GadUp",
   },
   {
-    name: "Yetunde Olowo",
+    name: "Omowumi Adetunji",
     image: "/omowumi.jpg",
     testimonial:
      "This web app completely changed how we manage our clients. We can now securely store body measurements and contact details in one place, which has made our workflow faster and more professional.",
