@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
   },
   {
     name: "Olawale Olatunji",
-    image: "/hero.png",
+    image: "/coo.jpg",
     testimonial:
      "Since launching our new e-commerce website, we’ve seen a noticeable increase in sales and customer engagement. Odunayo delivered exactly what our business needed. As an e-commerce startup, we needed a reliable and scalable platform. Odunayo built a smooth shopping experience that helped us launch confidently and grow faster.",
     startup: "GadUp",
