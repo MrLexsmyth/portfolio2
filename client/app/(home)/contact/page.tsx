@@ -103,7 +103,7 @@ const Page = () => {
       <Motion.button
         whileHover={{ scale: 1.05 }}
         type="submit"
-        className="w-full bg-yellow-400 text-black font-semibold py-3 mt-4"
+        className="w-full bg-yellow-400 text-black font-semibold py-3 mt-4 cursor-pointer hover:bg-white transition"
       >
         Send Message
       </Motion.button>
