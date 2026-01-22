@@ -112,7 +112,7 @@ const Page = () => {
   </div>
   {/* IMAGE SECTION */}
   <div className="flex-1 flex items-center justify-center order-1 lg:order-2">
-    <div className="w-[250px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[550px] lg:h-[550px] relative">
+    <div className="w-[250px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[550px] lg:h-[550px] relative mt-12">
       {/* <Image
         src="/animation.png"
         alt="Logo"
