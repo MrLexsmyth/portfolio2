@@ -121,7 +121,7 @@ const Page = () => {
         priority
       /> */}
        <DotLottieReact
-      src="/Girl.json"
+      src="/package.json"
       loop
       autoplay
     />
