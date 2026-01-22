@@ -4,7 +4,8 @@ import React, { useRef, useState } from "react";
 import { motion as Motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import AnimatedText from "@/components/AnimatedText";
-import Image from "next/image";
+// import Image from "next/image";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Page = () => {
   const form = useRef<HTMLFormElement | null>(null);
@@ -112,14 +113,20 @@ const Page = () => {
   {/* IMAGE SECTION */}
   <div className="flex-1 flex items-center justify-center order-1 lg:order-2">
     <div className="w-[250px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[550px] lg:h-[550px] relative">
-      <Image
+      {/* <Image
         src="/animation.png"
         alt="Logo"
         fill
         className="object-contain"
         priority
-      />
+      /> */}
+       <DotLottieReact
+      src="/Girl.json"
+      loop
+      autoplay
+    />
     </div>
+    
   </div>
 
 </div>
