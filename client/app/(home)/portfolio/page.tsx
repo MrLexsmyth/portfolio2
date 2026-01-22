@@ -144,20 +144,20 @@ const projectData = [
       "sass.svg",
     ],
   },
-  {
-    title: "A Church Website",
-    image: "/church.png",
-    description:
-      "Beautifully crafted platform representing identity of a church.",
-    live: "https://churchorganization-page-nla7.vercel.app/",
-    code: "https://github.com/MrLexsmyth/Churchorganization-page",
-    techs: [
-      "reactjs.svg",
-      "javascript.svg",
-      "tailwindcss.svg",
-      "sass.svg",
-    ],
-  },
+  // {
+  //   title: "A Church Website",
+  //   image: "/church.png",
+  //   description:
+  //     "Beautifully crafted platform representing identity of a church.",
+  //   live: "https://churchorganization-page-nla7.vercel.app/",
+  //   code: "https://github.com/MrLexsmyth/Churchorganization-page",
+  //   techs: [
+  //     "reactjs.svg",
+  //     "javascript.svg",
+  //     "tailwindcss.svg",
+  //     "sass.svg",
+  //   ],
+  // },
   {
     title: "Puzzle Game",
     image: "/game.png",
