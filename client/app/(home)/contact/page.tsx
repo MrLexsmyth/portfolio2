@@ -37,11 +37,22 @@ const Page = () => {
   };
 
   return (
-   <div className="min-h-screen bg-[#022c43] flex flex-col lg:flex-row items-center justify-center overflow-hidden px-6 gap-8">
-  
-  
-  {/* FORM / TEXT SECTION */}
-  <div className="flex-1 w-full max-w-xl text-white order-2 lg:order-1 ml-0 lg:ml-16 mb-10 lg:mb-0">
+   <div className="min-h-screen bg-[#022c43] flex flex-col lg:flex-row items-center justify-center px-6 lg:px-20 gap-12">
+
+  {/* IMAGE / LOTTIE — LEFT */}
+  <div className="flex-1 flex items-center justify-center order-1 mt-32">
+    <div className="w-[330px] h-[330px] sm:w-[380px] sm:h-[380px] lg:w-[520px] lg:h-[520px]">
+      <DotLottieReact
+        src="/Login.json"
+        loop
+        autoplay
+        style={{ width: "100%", height: "100%" }}
+      />
+    </div>
+  </div>
+
+  {/* FORM / TEXT — RIGHT */}
+  <div className="flex-1 w-full max-w-xl text-white order-2 mr-0 lg:mr-12">
 
     <div className="font-bold text-3xl md:text-5xl mb-4">
       <span className="block text-yellow-400 text-sm opacity-60 mb-2">
@@ -66,7 +77,6 @@ const Page = () => {
       </p>
     )}
 
-    {/* FORM */}
     <form ref={form} onSubmit={sendEmail} className="space-y-4">
       <Motion.input
         initial={{ opacity: 0, y: 15 }}
@@ -104,32 +114,16 @@ const Page = () => {
       <Motion.button
         whileHover={{ scale: 1.05 }}
         type="submit"
-        className="w-full bg-yellow-400 text-black font-semibold py-3 mt-4 cursor-pointer hover:bg-white transition"
+        className="w-full bg-yellow-400 text-black font-semibold py-3 mt-4 hover:bg-white transition cursor-pointer"
       >
         Send Message
       </Motion.button>
     </form>
-  </div>
-  {/* IMAGE SECTION */}
-  <div className="flex-1 flex items-center justify-center order-1 lg:order-2">
-    <div className="w-[250px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[550px] lg:h-[550px] relative mt-0 lg:mt-24">
-      {/* <Image
-        src="/animation.png"
-        alt="Logo"
-        fill
-        className="object-contain"
-        priority
-      /> */}
-       <DotLottieReact
-      src="/Login.json"
-      loop
-      autoplay
-    />
-    </div>
-    
-  </div>
 
+  </div>
 </div>
+
+
 
   );
 };
