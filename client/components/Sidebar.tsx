@@ -25,7 +25,7 @@ type SidebarProps = {
 
 export default function Sidebar({ onLinkClick }: SidebarProps) {
   return (
-    <aside className="h-full flex flex-col justify-between items-center p-4 text-white">
+    <aside className="h-full flex flex-col justify-between items-center p-4 text-[#fdc700]">
       
       {/* LOGO */}
       <motion.div
@@ -66,7 +66,7 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
   href="https://wa.me/2348169273808"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-white hover:text-green-400 mt-2 ml-4"
+  className=" hover:text-green-400 mt-2 ml-4"
 >
   <FontAwesomeIcon icon={faWhatsapp} size="lg" />
 </a>
