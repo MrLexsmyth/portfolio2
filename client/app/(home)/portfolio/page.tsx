@@ -30,6 +30,26 @@ const projectData = [
       "redis.svg"
     ],
   },
+   {
+    title: "BrightO - Real Estate",
+    image: "/estate.png",
+    description: "BrightO is a modern, all-in-one real estate platform that connects property seekers with agents, showcases listings beautifully, and simplifies property and payment management for admins—all while maintaining a smooth, interactive, and user-friendly experience.nage properties, tenants, and payments all in one place.",
+    live: "https://brighto.vercel.app/",
+    techs: [
+     "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
   {
     title: "MeasurePro",
     image: "/measurepro.png",
@@ -103,20 +123,7 @@ const projectData = [
       "firebase.svg",
     ],
   },
-  {
-    title: "Estate Management App",
-    image: "/estate.png",
-    description: "Manage properties, tenants, and payments all in one place.",
-    live: "https://estate-lake-rho.vercel.app/",
-    techs: [
-      "reactjs.svg",
-      "typescript.svg",
-      "framermotion.svg",
-      "tailwindcss.svg",
-      "redux.svg",
-      "next.svg",
-    ],
-  },
+ 
   {
     title: "A CBT Quiz",
     image: "/cbt.png",
