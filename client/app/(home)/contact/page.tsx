@@ -4,7 +4,6 @@ import React, { useRef, useState } from "react";
 import { motion as Motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import AnimatedText from "@/components/AnimatedText";
-// import Image from "next/image";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Page = () => {
@@ -30,7 +29,7 @@ const Page = () => {
           setTimeout(() => setNotification(null), 3000);
         },
         () => {
-          setNotification("Failed to send message. Please try again.");
+          setNotification("Failed to send message. Please try again."); 
           setTimeout(() => setNotification(null), 3000);
         }
       );

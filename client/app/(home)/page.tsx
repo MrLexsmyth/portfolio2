@@ -55,7 +55,7 @@ export default function HomePage() {
         hover:border-[#006f94]
       "
     >
-      Lets work 💻
+      Let&apos;s work 💻
     </a>
   </motion.li>
 </ul>

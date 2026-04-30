@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import localFont from "next/font/local";
 import { Playfair_Display } from "next/font/google";
 
 // Google Font setup
+
+const chill = localFont({
+  src: './fonts/chill.ttf',
+})
+
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -52,7 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${playfair.className} bg-[#022c43] text-white antialiased`}>
+      <body className={`${chill.className} bg-[#022c43] text-white antialiased`}>
         {children}
       </body>
     </html>
