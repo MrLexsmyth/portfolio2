@@ -7,16 +7,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-import {
-  Home,
-  User,
-  Briefcase,
-  Mail,
-  Github,
-  Linkedin,
-  Twitter,
-  Pen,
-} from "lucide-react";
+import { Home, User, Briefcase, Mail, Github, Linkedin, Twitter, Pen} from "lucide-react";
 
 
 type SidebarProps = {
@@ -50,9 +41,9 @@ export default function Sidebar({ onLinkClick }: SidebarProps) {
       {/* NAV LINKS */}
       <nav className="flex flex-col mt-4 gap-1 items-center">
         <SidebarLink href="/" icon={<Home size={24} />} label="Home" onClick={onLinkClick} />
-        <SidebarLink href="/about" icon={<User size={24} />} label="About" onClick={onLinkClick} />
         <SidebarLink href="/portfolio" icon={<Briefcase size={24} />} label="Portfolio" onClick={onLinkClick} />
-         <SidebarLink href="/testimonials" icon={<Pen size={24} />} label="Testimonials" onClick={onLinkClick} />
+        <SidebarLink href="/about" icon={<User size={24} />} label="About" onClick={onLinkClick} />
+        <SidebarLink href="/testimonials" icon={<Pen size={24} />} label="Testimonials" onClick={onLinkClick} />
         <SidebarLink href="/contact" icon={<Mail size={24} />} label="Contact" onClick={onLinkClick} />
        
       </nav>
