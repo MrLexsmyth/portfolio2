@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Shittu Odunayo Portfolio",
     images: [
       {
-        url: "/social-preview.png",
+        url: "https://shittuodunayo.com/social-preview.png",
         width: 1200,
         height: 630,
       },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shittu Odunayo O. - Portfolio",
     description: "Web Developer & Web Projects Showcase",
-    images: ["/image1.jpeg"],
+    images: ["https://shittuodunayo.com/social-preview.png"],
   },
 };
 
