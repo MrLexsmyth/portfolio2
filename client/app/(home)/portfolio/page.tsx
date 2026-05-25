@@ -50,6 +50,26 @@ const projectData = [
       "redis.svg"
     ],
   },
+   {
+    title: "LookGirly - Women Store",
+    image: "/lookgirlyy.png",
+    description: "LookGirly is a modern, all-in-one women's fashion store.",
+    live: "https://lookgirly.vercel.app/",
+    techs: [
+     "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
   {
     title: "MeasurePro",
     image: "/measurepro.png",
