@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
     name: " James Marvellous Chidinma",
     image: "/CEO.jpg",
     testimonial:
-     " Odunayo delivered exactly what our business needed. As an e-commerce startup, we needed a reliable and scalable platform. Odunayo built a smooth shopping experience that helped us launch confidently and grow faster.",
+     "Odunayo delivered exactly what our business needed. As an e-commerce startup, we needed a reliable and scalable platform. Odunayo built a smooth shopping experience that helped us launch confidently and grow faster.",
     startup: "LookGirly",
   },
   {
