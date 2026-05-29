@@ -129,7 +129,7 @@ icons: {
     ],
     locale: "en_US",
     emails: ["shittuodunayo2020@gmail.com"],
-    authors: [AUTHOR_NAME],
+   
   },
 
   // Twitter Card
