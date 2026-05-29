@@ -1,4 +1,17 @@
-User-agent: *
-Disallow:
 
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /_next
+Disallow: /private
+ 
+# Specify sitemap
 Sitemap: https://shittuodunayo.com/sitemap.xml
+Sitemap: https://shittuodunayo.com/sitemap-projects.xml
+ 
+# Crawl delay (optional)
+Crawl-delay: 1
+
