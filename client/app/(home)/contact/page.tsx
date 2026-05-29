@@ -65,6 +65,8 @@ const Page = () => {
       </span>
     </div>
 
+    
+
     <p className="text-sm text-gray-300 mb-6 leading-relaxed">
       I’m always open to collaborations, new projects, or just a friendly
       chat. Drop a message and let’s build something meaningful together.

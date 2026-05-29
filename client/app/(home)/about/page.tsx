@@ -21,7 +21,7 @@ const techStack = [
   { icon: "supabase.svg", name: "Supabase" },
   { icon: "git.svg", name: "Git" },
   { icon: "redis.svg", name: "Redis" },
-   { icon: "postman.svg", name: "Postman" },
+  { icon: "postman.svg", name: "Postman" },
 ];
 
 const Page = () => {
