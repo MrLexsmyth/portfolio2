@@ -29,15 +29,15 @@ const portfolioSchema = {
   "description": SITE_DESCRIPTION,
   "jobTitle": "Web Developer & Designer",
   "sameAs": [
-    "https://www.linkedin.com/in/shittuodunayo",
-    "https://twitter.com/shittuodunayo",
-    "https://github.com/shittuodunayo",
+    "https://www.linkedin.com/in/shittu-odunayo-opeyemi-94abbb207/",
+     "https://x.com/ShittuOdunayoO",
+    "https://github.com/MrLexsmyth",
     "https://instagram.com/shittuodunayo",
   ],
   "contact": {
     "@type": "ContactPoint",
     "contactType": "Customer Support",
-    "email": "contact@shittuodunayo.com",
+    "email": "shittuodunayo2020@gmail.com",
     "availableLanguage": "en"
   }
 };
@@ -128,7 +128,7 @@ icons: {
       },
     ],
     locale: "en_US",
-    emails: ["contact@shittuodunayo.com"],
+    emails: ["shittuodunayo2020@gmail.com"],
     authors: [AUTHOR_NAME],
   },
 
@@ -201,7 +201,7 @@ export default function RootLayout({
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
         <meta name="author" content={AUTHOR_NAME} />
-        <meta name="email" content="contact@shittuodunayo.com" />
+        <meta name="email" content="shittuodunayo2020@gmail.com" />
         <meta name="copyright" content={`© 2024 ${AUTHOR_NAME}. All rights reserved.`} />
 
         {/* Google Site Verification (replace with your code) */}
