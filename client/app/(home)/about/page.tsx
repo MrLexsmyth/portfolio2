@@ -51,7 +51,7 @@ const Page = () => {
             </p>
 
             <p>
-              I enjoy solving complex problems, improving user experiences, and creating solutions that are both efficient and easy to use. Whether it's a customer-facing web application or an internal business management system, my focus is always on performance, reliability, and long-term scalability.
+              I enjoy solving complex problems, improving user experiences, and creating solutions that are both efficient and easy to use. Whether it’s a customer-facing web application or an internal business management system, my focus is always on performance, reliability, and long-term scalability.
             </p>
 
             <p>
@@ -59,7 +59,8 @@ const Page = () => {
             </p>
 
               <p>
-           Whether you're launching a new product, modernizing an existing platform, or looking to streamline your business operations, I'd be excited to help bring your vision to life.
+           Whether you’re launching a new product, modernizing an existing platform, or looking to streamline your business operations, I’d be excited to help bring your vision to life.
+            </p>
           </div>
 
           <a

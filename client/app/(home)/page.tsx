@@ -73,9 +73,9 @@ export default function HomePage() {
             I’m Shittu Odunayo O.
           </h1>
 
-          <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-            a Web Developer / Accounting Software Consultant
-          </h1>
+       <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold mb-4 whitespace-nowrap">
+  Web Developer / Accounting Software Consultant
+</h1>
         </AnimatedText>
 
         <EncryptText
