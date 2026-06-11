@@ -47,20 +47,19 @@ const Page = () => {
 
           <div className="mt-6 text-white space-y-6 text-sm md:text-base leading-relaxed text-justify max-w-xl">
             <p>
-              I write code, break things, fix them, and make it all come together.
-              I build performant web apps using Next.js, React, and Node.js—
-              ensuring they run smoothly and efficiently.
+           I design, build, and optimize digital solutions that help businesses grow. As a Full-Stack Developer and ERP Technical Consultant, I develop scalable web applications using Next.js, React, Node.js, and modern technologies, while also implementing business systems for inventory management, accounting, sales, and operational workflows.
             </p>
 
             <p>
-              In my free time, I enjoy reading tech blogs, contributing to
-              open-source projects, and exploring new frameworks.
+              I enjoy solving complex problems, improving user experiences, and creating solutions that are both efficient and easy to use. Whether it's a customer-facing web application or an internal business management system, my focus is always on performance, reliability, and long-term scalability.
             </p>
 
             <p>
-              Whether you’re starting from scratch or reimagining something
-              existing, I’d love to help bring your vision to life.
+            Beyond client projects, I stay up to date with emerging technologies, explore new frameworks, contribute to development communities, and continuously expand my knowledge of business process automation and ERP systems.
             </p>
+
+              <p>
+           Whether you're launching a new product, modernizing an existing platform, or looking to streamline your business operations, I'd be excited to help bring your vision to life.
           </div>
 
           <a
