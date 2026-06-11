@@ -70,11 +70,11 @@ export default function HomePage() {
           />
 
           <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-            I’m Shittu Odunayo O.®
+            I’m Shittu Odunayo O.
           </h1>
 
           <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-            a Web Developer.
+            a Web Developer / Accounting Software Consultant
           </h1>
         </AnimatedText>
 
@@ -90,11 +90,15 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <p>
-            I’m a full-stack developer who builds efficient, user-focused web
-            applications using React, Next.js, TypeScript, and other technologies
-            — always aiming for clean code and practical, scalable solutions.
-          </p>
+        <p>
+  I’m a Full-Stack Developer and ERP Technical Consultant specializing in
+  building scalable web applications and business management solutions. I work
+  with technologies such as React, Next.js, TypeScript, and Node.js, while also
+  helping organizations implement and customize ERP systems for inventory
+  management, accounting, sales, procurement, and operational efficiency. My
+  goal is to create reliable, user-friendly solutions that improve productivity
+  and support business growth.
+</p>
         </motion.div>
         <motion.div
           className="mt-4"
@@ -104,28 +108,28 @@ export default function HomePage() {
         >
          <a
   href="https://www.linkedin.com/in/shittu-odunayo-opeyemi-94abbb207/"
-  className="text-white/50 text-[32px] ml-[30px] mr-[10px] transition-colors duration-300 hover:text-white"
+  className="text-white/50 text-[32px] ml-[30px] mr-2.5 transition-colors duration-300 hover:text-white"
 >
   <FontAwesomeIcon icon={faLinkedin} />
 </a>
 
 <a
   href="https://wa.me/2348169273808"
-  className="text-white/50 text-[32px] ml-[30px] mr-[10px] transition-colors duration-300 hover:text-white"
+  className="text-white/50 text-[32px] ml-[30px] mr-2.5 transition-colors duration-300 hover:text-white"
 >
   <FontAwesomeIcon icon={faWhatsapp} />
 </a>
 
 <a
   href="https://t.co/F8pwGHzqve"
-  className="text-white/50 text-[32px] ml-[30px] mr-[10px] transition-colors duration-300 hover:text-white"
+  className="text-white/50 text-[32px] ml-[30px] mr-2.5 transition-colors duration-300 hover:text-white"
 >
   <FontAwesomeIcon icon={faGithub} />
 </a>
 
 <a
   href="https://x.com/ShittuOdunayoO"
-  className="text-white/50 text-[32px] ml-[30px] mr-[10px] transition-colors duration-300 hover:text-white"
+  className="text-white/50 text-[32px] ml-[30px] mr-2.5 transition-colors duration-300 hover:text-white"
 >
   <FontAwesomeIcon icon={faXTwitter} />
 </a>
