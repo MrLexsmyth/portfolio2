@@ -50,6 +50,27 @@ const projectData = [
       "redis.svg"
     ],
   },
+    {
+    title: "ProcureByDivine - Procurement Management System",
+    image: "/procurebydivine.png",
+    description: "A Full-Stack Procurement Management System.",
+    live: "https://procurementbydivine.vercel.app/",
+    code: "https://github.com/MrLexsmyth/procurementbydivine", 
+    techs: [
+      "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
    {
     title: "LookGirly - Women Store",
     image: "/lookgirlyy.png",
