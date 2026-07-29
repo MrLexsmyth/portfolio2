@@ -31,8 +31,8 @@ const projectData = [
     ],
   },
     {
-    title: "empireexpress",
-    image: "/2.png",
+    title: "Empireexpress",
+    image: "/3.png",
     description: "A Shipping Company",
     live: "https://empireexpressshipping.com/",
    
@@ -72,7 +72,7 @@ const projectData = [
     ],
   },
     {
-    title: "magicsignaturesplace",
+    title: "MagicSignaturesPlace",
     image: "/1.png",
     description: "A Fashion Store",
     live: "https://magicsignaturesplace.store/",
@@ -93,8 +93,8 @@ const projectData = [
     ],
   },
    {
-    title: "oceanrootlogistics",
-    image: "/3.png",
+    title: "OceanRootLogistics",
+    image: "/2.png",
     description: "A Shipping Company",
     live: "https://oceanrootlogistics.ng/",
    
