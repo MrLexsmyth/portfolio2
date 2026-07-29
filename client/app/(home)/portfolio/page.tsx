@@ -9,6 +9,27 @@ import SEO from "@/components/SEO";
 /* -------------------- DATA -------------------- */
 
 const projectData = [
+   {
+    title: "Hospitality Marketing Africa",
+    image: "/4.png",
+    description: "Discover authentic African hospitality – connect with premier hotels, restaurants, and attractions across the continent..",
+    live: "https://hospitalitymarketingafrica.com/",
+    
+    techs: [
+      "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
   {
     title: "GadUp",
     image: "/gadup.jpg",
