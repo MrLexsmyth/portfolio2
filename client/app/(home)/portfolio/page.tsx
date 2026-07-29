@@ -30,6 +30,27 @@ const projectData = [
       "redis.svg"
     ],
   },
+    {
+    title: "empireexpress",
+    image: "/2.png",
+    description: "A Shipping Company",
+    live: "https://empireexpressshipping.com/",
+   
+    techs: [
+      "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
    {
     title: "BrightO - Real Estate",
     image: "/estate.png",
@@ -37,6 +58,48 @@ const projectData = [
     live: "https://brighto.vercel.app/",
     techs: [
      "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
+    {
+    title: "magicsignaturesplace",
+    image: "/1.png",
+    description: "A Fashion Store",
+    live: "https://magicsignaturesplace.store/",
+   
+    techs: [
+      "reactjs.svg",
+      "javascript.svg",
+      "tailwindcss.svg",
+      "sass.svg",
+      "framermotion.svg",
+      "next.svg",
+      "express.svg",
+      "git.svg",
+      "mongodb.svg",
+      "nodejs.svg",
+      "typescript.svg",
+      "redis.svg"
+    ],
+  },
+   {
+    title: "oceanrootlogistics",
+    image: "/3.png",
+    description: "A Shipping Company",
+    live: "https://oceanrootlogistics.ng/",
+   
+    techs: [
+      "reactjs.svg",
       "javascript.svg",
       "tailwindcss.svg",
       "sass.svg",
