@@ -33,6 +33,13 @@ const wordVariant = {
 };
 
 const testimonials: Testimonial[] = [
+{
+  name: "Busari Idiat",
+  image: "/vybezlogo.png",
+  testimonial:
+    "Odunayo built us a complete system that changed how we run the arcade. Customers now book and pay online before they arrive, our staff handle walk-ins and print receipts in seconds, and I can see the day's sales, staff attendance and stock from one dashboard. We've gone from notebooks to something that actually runs the business.",
+  startup: "Vybez Arcade",
+},
   {
     name: "Divine Ada",
     image: "/pm.jpg",
