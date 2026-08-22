@@ -10,10 +10,10 @@ import SEO from "@/components/SEO";
 
 const projectData = [
    {
-    title: "Hospitality Marketing Africa",
-    image: "/4.png",
-    description: "Discover authentic African hospitality – connect with premier hotels, restaurants, and attractions across the continent..",
-    live: "https://hospitalitymarketingafrica.com/",
+    title: "Vybez Arcade ",
+    image: "/vybez.png",
+    description: "Full system for an arcade in Ilorin — online bookings, payments, staff, payroll, inventory, sales, and more.",
+    live: "https://vybezarcade.ng/",
     
     techs: [
       "reactjs.svg",
@@ -113,27 +113,7 @@ const projectData = [
       "redis.svg"
     ],
   },
-   {
-    title: "OceanRootLogistics",
-    image: "/2.png",
-    description: "A Shipping Company",
-    live: "https://oceanrootlogistics.ng/",
-   
-    techs: [
-      "reactjs.svg",
-      "javascript.svg",
-      "tailwindcss.svg",
-      "sass.svg",
-      "framermotion.svg",
-      "next.svg",
-      "express.svg",
-      "git.svg",
-      "mongodb.svg",
-      "nodejs.svg",
-      "typescript.svg",
-      "redis.svg"
-    ],
-  },
+
     {
     title: "ProcureByDivine - Procurement Management System",
     image: "/procurebydivine.png",
